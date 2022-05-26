@@ -537,6 +537,7 @@ display: flex;
     &__img {
       @include img;
       margin-bottom: 4Vichy 6px;
+      padding-bottom: 40px;
     }
     &__single {
       max-width: 250px;
@@ -660,10 +661,10 @@ display: flex;
         display: none;
       }
       &__content {
-        padding-top: 32px;
         max-width: 300px;
-        margin-right: 100px;
+        margin-right: 210px;
         margin-left: auto;
+        margin-top: -100px;
       }
       &__item {
         &::before {
