@@ -226,11 +226,6 @@ body {
 #es-vichy.es-vichy .es-info__icon {
   margin-bottom: 16px;
 }
-#es-vichy.es-vichy .es-info__features {
-  background: url("images/bubbles-2.png") center/contain no-repeat;
-  background-position: bottom right;
-  background-size: 120px;
-}
 #es-vichy.es-vichy .es-info__features .es-info__single {
   display: flex;
   flex-direction: column;
@@ -510,7 +505,7 @@ body {
   display: none;
 }
 #es-vichy.es-vichy .es-rev-banner__content {
-  padding: 32px 16px;
+  padding: 32px;
   margin-bottom: 30px;
   background: linear-gradient(45deg, #d2991d, #fad522);
   width: 100%;
@@ -730,6 +725,8 @@ body {
   }
   #es-vichy.es-vichy .es-cross__photo--desktop {
     display: block;
+    margin-left: 140px;
+    width: 700px;
   }
   #es-vichy.es-vichy .es-cross__packshot {
     display: none;
@@ -752,7 +749,8 @@ body {
   #es-vichy.es-vichy .es-use {
     background: url("images/BG-9.png") center/cover no-repeat;
     background-position: bottom left;
-    min-height: 569px;
+    background-size: 115%;
+    min-height: 669px;
     display: flex;
     align-items: center;
     margin-bottom: 64px;
@@ -762,9 +760,9 @@ body {
   }
   #es-vichy.es-vichy .es-use__content {
     max-width: 300px;
-    margin-right: 210px;
+    margin-right: 150px;
     margin-left: auto;
-    margin-top: -100px;
+    margin-top: -140px;
   }
   #es-vichy.es-vichy .es-use__item::before {
     color: #fad522;
@@ -851,14 +849,13 @@ body {
     right: -152px;
   }
   #es-vichy.es-vichy .es-benefits {
-    min-height: 589px;
+    min-height: 420px;
     display: flex;
     align-items: center;
     background-position: left top;
     margin-bottom: 40px;
   }
   #es-vichy.es-vichy .es-benefits__content {
-    padding-top: 56px;
     margin-left: 40px;
   }
   #es-vichy.es-vichy .es-benefits__disc {

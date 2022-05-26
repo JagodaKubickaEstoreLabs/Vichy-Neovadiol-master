@@ -214,9 +214,6 @@ body {
     }
   }
   .es-info__features{
-    background: url('images/bubbles-2.png') center / contain no-repeat;
-    background-position: bottom right;
-    background-size: 120px;
     .es-info__single{
       display: flex;
       flex-direction: column;
@@ -439,7 +436,7 @@ display: flex;
       display: none;
     }
     &__content { 
-      padding: 32px 16px;
+      padding: 32px;
       margin-bottom: 30px;
       background: linear-gradient(45deg, #d2991d, #fad522);
       width: 100%;
@@ -627,6 +624,8 @@ display: flex;
       }
       &__photo--desktop {
         display: block;
+        margin-left: 140px;
+        width: 700px;
       }
       &__packshot {
         display: none;
@@ -653,7 +652,8 @@ display: flex;
     .es-use {
       background: url('images/BG-9.png') center / cover no-repeat;
       background-position: bottom left;
-      min-height: 569px;
+      background-size: 115%;
+      min-height: 669px;
       display: flex;
       align-items: center;
       margin-bottom: 64px;
@@ -662,9 +662,9 @@ display: flex;
       }
       &__content {
         max-width: 300px;
-        margin-right: 210px;
+        margin-right: 150px;
         margin-left: auto;
-        margin-top: -100px;
+        margin-top: -140px;
       }
       &__item {
         &::before {
@@ -761,13 +761,12 @@ display: flex;
       }
     }
     .es-benefits {
-      min-height: 589px;
+      min-height: 420px;
       display: flex;
       align-items: center;
       background-position: left top;
       margin-bottom: 40px;
       &__content {
-        padding-top: 56px;
         margin-left: 40px;
       }
       &__disc {
